@@ -1,1 +1,86 @@
-/* Your code here */
+
+.masthead {
+  border-bottom: 1px solid #e2e2e2;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "tl . tr"
+    ". cc ."
+    "bl bc br";
+}
+.masthead_menu-and-search {
+  align-items: center;
+  display: flex;
+  grid-area: tl;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.masthead_menu-and-search div {
+  font-size: 11px;
+  padding: 7px 9px;
+}
+.masthead_menu-and-search div:hover {
+  background-color: #f7f7f5;
+}
+.masthead_actions {
+  align-items: center;
+  display: flex;
+  grid-area: tr;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+.masthead_actions div:hover {
+  background-color: #f7f7f5;
+}
+.masthead_technologies {
+  grid-area: cc;
+  display: flex;
+  justify-content: center;
+  padding: 0 5px;
+}
+.masthead_technologies div {
+  align-items: center;
+  background-color: white;
+  border-left: 1px solid #e2e2e2;
+  border-right: 1px solid #e2e2e2;
+  border-top: 1px solid #e2e2e2;
+  display:flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 0 10px;
+  position:relative;
+  top: 1px;
+  width: fit-content;
+}
+.nav-tech {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #6f6f6f;
+}
+.masthead_date {
+  align-items: flex-end;
+  border-top: 1px solid #e2e2e2;
+  display: flex;
+  font-size: 11px;
+  grid-area: bl;
+  padding-bottom: 11px;
+  justify-content: flex-start;
+}
+.masthead_logo {
+  align-items: center;
+  border-top: 1px solid #e2e2e2;
+  display: flex;
+  grid-area: bc;
+  justify-content: center;
+  padding-bottom: 11px;
+  padding-top: 15px;;
+}
+.masthead_paper {
+  align-items: flex-end;
+  border-top: 1px solid #e2e2e2;
+  display: flex;
+  font-size: 11px;
+  grid-area: br;
+  padding-bottom: 11px;
+  justify-content: flex-end;
+}
