@@ -1,21 +1,17 @@
-/*!!START */
 .fa-newspaper {
   height: 14px;
   width: 14px;
 }
-
 .masthead {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-
 .masthead__actions {
   display: flex;
   grid-column-start: 3;
   padding: 10px 0;
   justify-content: flex-end;
 }
-
 .masthead__date {
   align-items: flex-end;
   border-bottom: 1px solid #e2e2e2;
@@ -25,17 +21,14 @@
   grid-row-start: 3;
   padding-bottom: 11px;
 }
-
 .masthead__icon-button {
   font-size: 11px;
   padding: 7px 9px;
   position: relative;
 }
-
 .masthead__icon-button:hover {
   background-color: #f7f7f5;
 }
-
 .masthead__logo {
   border-bottom: 1px solid #e2e2e2;
   border-top: 1px solid #e2e2e2;
@@ -45,13 +38,11 @@
   padding-top: 20px;
   text-align: center;
 }
-
 .masthead__menu-and-search {
   display: flex;
   align-items: center;
   padding-left: 20px;
 }
-
 .masthead__paper {
   border-bottom: 1px solid #e2e2e2;
   border-top: 1px solid #e2e2e2;
@@ -63,7 +54,6 @@
   grid-row-start: 3;
   padding-bottom: 11px;
 }
-
 .masthead__technologies {
   display: flex;
   grid-column-start: 2;
@@ -71,11 +61,9 @@
   justify-content: center;
   text-align: center;
 }
-
 .masthead__technology {
   margin: 0 4px;
 }
-
 .masthead__technology-list {
   background-color: white;
   border-left: 1px solid #e2e2e2;
@@ -87,4 +75,3 @@
   text-transform: uppercase;
   top: 1px;
 }
-/*!!END */

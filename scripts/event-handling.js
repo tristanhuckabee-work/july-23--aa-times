@@ -1,5 +1,7 @@
 window.addEventListener('DOMContentLoaded', () => {
   console.log('event-handling.js script was successfully loaded');
+  const title = document.querySelector('title');
+  title.innerText = "SOLUTION";
   const cogIcon = document.querySelector('.fas.fa-cog');
   cogIcon.addEventListener('click', event => {
     console.log('Gear clicked');
